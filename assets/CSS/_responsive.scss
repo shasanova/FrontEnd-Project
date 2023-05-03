@@ -1,0 +1,978 @@
+@media (max-width: 768px) {
+    .active-header {
+        padding: 8px 20px;
+    }
+    .mobile-exchange-menu {
+        display: block !important;
+        .exchange-tabMenu {
+            .tab-contents {
+                .tab-content {
+                    .date {
+                        p {
+                            padding-bottom: 30px;
+                            height: auto;
+                            font-size: 12px;
+                            line-height: 18px;
+                            color: rgba(50,50,50,.5);
+                        }
+                    }
+
+                }
+            }
+            .menu-tabLinks {
+                margin-bottom: 24px;
+
+                .all-branches {
+                    margin-right: 10px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .exchange-body {
+        display: none !important;
+    }
+    .btns {
+        a {
+            padding: 13px 35px !important;
+            font-size: 12px !important;
+        }
+    }
+    .sliders {
+        .slider {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            .first-img {
+                width: 60%;
+
+                .slider-image {
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+            .second-img {
+                width: 80%;
+
+                .slider-image {
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+            .third-img {
+                width: 80%;
+            }
+            .last-img {
+                width: 90%;
+                margin-left: 90px;
+            }
+            .slider-right {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                width: 100%;
+                height: 100%;
+                .title {
+                    font-size: 22px;
+                    line-height: normal;
+                    font-weight: 800;
+                    margin-bottom: 10px;
+                }
+                .text {
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 18px;
+                    margin-bottom: 20px;
+                    width: 66%;
+                }
+                .button-more {
+                    a {
+                        padding: 12px 25px !important;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+    .card {
+        padding: 25px 5px;
+        margin-bottom: 10px;
+
+        .card-button {
+            a {
+                padding: 15px 24px;
+                font-size: 12px;
+            }
+        }
+
+        .card-contents {
+            margin: 0 auto;
+
+            .card-name {
+                font-size: 12px;
+            }
+
+            .card-percentage {
+                font-size: 32px;
+            }
+
+            .card-last-p {
+                font-size: 10px;
+                margin-bottom: 20px;
+            }
+
+
+        }
+    }
+    .all-ubank {
+        display: flex;
+        flex-direction: column;
+
+        .left-ubank {
+            width: 100%;
+            padding-right: 20px;
+            padding-left: 30px;
+
+            .ubank.content {
+                display: flex;
+                flex-direction: column-reverse;
+            }
+
+            .get-it {
+                a {
+                    img {
+                        width: 90px;
+                        height: 25px;
+                    }
+                }
+            }
+        }
+
+        .right-ubank {
+            width: 80%;
+            margin-top: 40px;
+
+            img {
+                margin-bottom: 0px;
+            }
+        }
+    }
+    // UCcard
+    .all-UCcard {
+        flex-direction: column;
+        .left {
+            width: 100%;
+            margin-top: -60px;
+            padding-right: 20px;
+            padding-left: 30px;
+            img {
+                width: 100%;
+            }
+        }
+        .right {
+            width: auto;
+            padding-right: 20px;
+            padding-left: 30px;
+            .uccard-title {
+                h3 {
+                    font-size: 20px;
+                    line-height: normal;
+                    margin-bottom: 10px;
+                    font-weight: 800;
+                }
+            }
+            .uccard-text {
+                p {
+                    margin-bottom: 20px;
+                    font-size: 12px;
+                    line-height: normal;
+                    padding-right: 10px;
+                }
+            }
+            .uccard-buttons {
+                display: block !important;
+                .more {
+                    display: block;
+                    text-align: center;
+                    margin-bottom: 10px;
+                }
+                .last-btns {
+                    display: flex;
+                    justify-content: space-between;
+                    .uc-btn {
+                        width: 50%;
+                        text-align: center;
+                        font-weight: 700;
+                        font-size: 12px;
+                        padding: 10px 20px;
+                    }
+                }
+            }
+        }
+    }
+    // network  
+    .all-network {
+        flex-direction: column;
+
+        .left {
+            width: 100%;
+
+            .net-left {
+                padding: 24px 30px;
+
+                .net-title {
+                    width: 30%;
+
+                    h3 {
+                        font-size: 20px;
+                    }
+                }
+
+                .net-text {
+                    p {
+                        font-size: 12px !important;
+                    }
+                }
+
+                .net-image {
+                    width: 40%;
+
+                    img {
+                        height: 200px
+                    }
+                }
+
+                .net-btn {
+                    @extend .btns;
+                }
+            }
+        }
+
+        .right {
+            width: 100%;
+
+            .net-right {
+                padding: 24px 30px;
+            }
+
+            .right-title {
+                width: 100%;
+
+                h3 {
+                    font-size: 20px;
+                }
+            }
+
+            .right-text {
+                p {
+                    width: 100% !important;
+                    font-size: 12px !important;
+                }
+            }
+
+            .right-btn {
+                @extend .btns;
+            }
+
+            .right-image {
+                img {
+                    height: 230px;
+                }
+            }
+        }
+    }
+    .all-news {
+        .news-btn {
+            @extend .btns;
+        }
+
+        .news-box {
+            .box-title {
+                h6 {
+                    font-size: 14px;
+                    margin-bottom: 10px;
+                    height: auto;
+                }
+            }
+
+            .box-text {
+                p {
+                    font-size: 12px;
+                    line-height: normal;
+                }
+            }
+
+            .news-date {
+                p {
+                    width: 100%;
+                    font-size: 10px;
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+    .exchange-rate {
+        padding: 20px 30px; 
+        table {
+            width: 100%;  
+            tbody{
+                td{
+                    color: #000;
+                }
+            }      
+            .second {
+                display: none;
+            }
+            .last {
+                display: none;
+            }
+        }
+        .exchange-calculator {
+            flex-direction: column;
+            height: auto;
+            margin-bottom: 50px;
+            margin-top: 40px;
+            background: #fff;
+            box-shadow: 0 10px 25px -10px rgba(0, 0, 0, .1);
+            padding: 53px 9px;
+            border-radius: 10px;
+            .calc-header{
+                margin-right: 0;
+                margin-bottom: 20px;
+                h4{
+                    text-align: center;
+                }
+            }
+            .calculator-input {
+                display: flex;
+                flex-direction: column;
+                .first-calculator{
+                    padding: 25px 13px;
+                   
+                    input{
+                        padding: 2px 0;
+                    }
+                }
+                .arrow-right {
+                    display: none;
+                }
+            }
+        }
+    }
+    .all-cards {
+        .section-title {
+            margin-top: 15px;
+
+            h2 {
+                font-size: 22px;
+                line-height: normal;
+                margin-top: 20px;
+                margin-bottom: 15px;
+            }
+
+        }
+
+        .card {
+            padding: 20px 44px;
+
+            .card-body {
+                text-align: center;
+            }
+
+            img {
+                width: 278px;
+            }
+
+            .card-title {
+                font-size: 18px;
+                font-weight: 800;
+            }
+
+            .card-text {
+                font-weight: 400;
+                font-size: 12px;
+                line-height: normal;
+                margin-bottom: 10px;
+            }
+        }
+
+        .visa {
+            padding: 30px 60px;
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 10px;
+            flex-direction: column;
+
+            .card-img {
+                margin-bottom: 20px;
+            }
+
+            .visa-body {
+                .visa-header {
+                    display: block;
+                }
+
+                .visa-text {
+                    text-align: center;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: normal;
+                }
+
+                .visa-bottom {
+                    .one-card {
+                        flex-direction: column;
+
+                        .c-name {
+                            span {
+                                font-weight: 700;
+                                font-size: 12px;
+                                color: #000;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .all-service {
+        .service-name {
+            h2 {
+                font-size: 20px;
+            }
+        }
+
+        .tab-menu {
+            .service-contents {
+                a {
+                    padding: 11px 2px;
+                }
+                // hr
+                .content {
+                    img {
+                        object-fit: contain;
+                        height: 130px;
+                    }
+                    #vacancies {
+                        .vacancy {
+                            display: inline-block;
+                            padding: 5px 160px 12px 17px;
+
+                            .vc-titles {
+                                a {
+                                    h5 {
+                                        font-size: 11px;
+                                    }
+
+                                    span {
+                                        font-size: 10px;
+                                    }
+                                }
+                            }
+
+                            .vc-button {
+                                a {
+                                    margin-top: 6px;
+                                }
+                            }
+                        }
+                    }
+                    .workAtUnibank {
+                        .hr-events {
+                            .event {
+                                a {
+                                    img {
+                                        height: 193px;
+                                        width: 266px;
+                                    }
+                                }
+                            }
+                        }
+                        .work-info {
+                            p {
+                                font-size: 11px;
+                                line-height: normal;
+                            }
+                        }
+                        .page-photo {
+                            height: 269px;
+                            margin-bottom: 22px;
+                            .workAtUnibank-texts {
+                                text-align: center;
+                                h2 {
+                                    font-size: 23px;
+                                }
+                                span {
+                                    font-size: 11px;
+                                }
+                            }
+                            .image {
+                                position: absolute;
+                                left: 11px;
+                                background-position: left;
+                                background-size: contain;
+                                background-repeat: no-repeat;
+                                width: 100%;
+                                opacity: .2;
+
+                                img {
+                                    width: 51%;
+                                    height: 100%;
+                                }
+                            }
+                        }
+                    }
+                    .office {
+                        flex-wrap: wrap;
+                        padding: 20px 40px;
+
+                        .other {
+                            #icon {
+                                font-size: 20px;
+                            }
+
+                            .info {
+                                font-size: 10px;
+                                line-height: 12px;
+                            }
+                        }
+
+                        .office-name {
+                            width: 100%;
+
+                            .info {
+                                margin-bottom: 10px;
+                            }
+                        }
+                    }
+
+                    .employees {
+                        .emp-box {
+                            padding: 29px 22px;
+                            margin-bottom: -19px;
+                            margin-top: 36px;
+
+                            #emp-text {
+                                margin-top: 0;
+                                padding-right: 0;
+                            }
+
+                            #emp-position,
+                            #emp-text {
+                                font-size: 11px;
+                            }
+
+                            #emp-name {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+
+                    .hr-cards {
+                        .hr-card {
+                            display: flex;
+                            align-items: center;
+                            padding: 15px 40px;
+                            margin-bottom: 20px;
+                            height: 120px;
+
+                            #hr-icon {
+                                width: 37px;
+                                height: 37px;
+                                margin-right: 10px;
+                            }
+
+                            .hr-body {
+                                display: flex;
+                                align-items: center;
+                                text-align: left;
+
+                                .hr-text {
+                                    margin-right: 10px;
+
+                                    h4 {
+                                        font-size: 13px;
+                                        margin-bottom: 0;
+                                        margin-top: 10px;
+                                    }
+                                }
+
+                                i {
+                                    font-size: 8px;
+                                    color: grey;
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+
+                    .about-us {
+                        padding: 29px 18px;
+
+                        p {
+                            font-size: 11px;
+                        }
+
+                        .title {
+                            h2 {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+
+                    .benefits {
+                        .benefit {
+                            display: flex;
+                            align-items: center;
+                            height: auto;
+                            padding: 20px 40px;
+                            margin-bottom: 10px;
+
+                            i {
+                                font-size: 32px;
+                                margin-right: 10px;
+                                margin-bottom: 0;
+                            }
+
+                            p {
+                                text-align: left;
+                                font-size: 12px;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+
+                    .values {
+                        h2 {
+                            font-size: 20px;
+                        }
+
+                        .value-hr-card {
+                            h5 {
+                                margin-bottom: 3px;
+                                font-size: 16px;
+                            }
+
+                            p {
+                                line-height: normal;
+                                font-size: 11px;
+                                padding-top: 0;
+                                padding-right: 0;
+                                margin-top: 5px;
+                            }
+                        }
+                    }
+
+                    footer {
+                        padding-top: 0;
+                    }
+                }
+            }
+
+            .service-headers {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                overflow-x: auto;
+                min-width: 125px;
+
+                a {
+                    min-width: 130px;
+                    line-height: normal;
+                    padding: 13px 2px;
+                    text-align: center;
+                    font-size: 12px;
+                    font-weight: 600;
+
+                    span {
+                        text-overflow: ellipsis;
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        padding-top: 0;
+
+        .footer-menus {
+            .footer-menu {
+                display: none;
+            }
+        }
+
+        .footer-icons {
+            padding-top: 30px;
+            text-align: center;
+
+            a {
+                i {
+                    font-size: 15px;
+                    padding: 8px;
+                }
+            }
+        }
+
+        .footer-bottom {
+            text-align: center;
+            display: flex;
+            flex-direction: column-reverse;
+
+            .footer-partners {
+
+                .partner {
+                    .finance {
+                        margin-top: 15px;
+                    }
+                }
+            }
+
+            .footer-left {
+                margin-top: 50px;
+
+                p {
+                    margin-bottom: 1px;
+                }
+            }
+        }
+    }
+
+    header {
+        display: none;
+    }
+    // Search Input Starts
+    .wrapper {
+        .search-inp {
+            .addition-inputs {
+                .addition-inp {
+                    p {
+                        font-size: 12px;
+                    }
+                }
+            }
+
+            .inp {
+                i {
+                    position: absolute;
+                    top: 35% !important;
+                    right: 29% !important;
+                }
+            }
+        }
+    }
+
+    .mobile-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 10px;
+        position: relative;
+
+        .burger-icon {
+            width: 45px;
+            height: 45px;
+
+            i {
+                background-color: #f5f5f6;
+                padding: 15px;
+                border-radius: 50%;
+                margin-right: 20px;
+                font-size: 20px;
+            }
+        }
+
+        .logo {
+            width: 27px;
+            height: 28px;
+            margin-left: 83px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .basket {
+            background: #f5f5f6;
+            border-radius: 20px;
+            padding: 6px 6px 5px 13px;
+            margin-right: 5px;
+
+            i {
+                color: #ff6b00;
+                font-size: 20px;
+
+                span {
+                    color: #000;
+                    font-size: 11px;
+                }
+            }
+        }
+
+        .phone {
+            background: #f5f5f6;
+            border-radius: 20px;
+            line-height: 40px;
+            font-size: 14px;
+            padding: 0 15px;
+            color: #000 !important;
+
+            .icon {
+                i {
+                    color: #ff6b00;
+                    font-size: 18px;
+                    margin-right: 7px;
+                }
+            }
+
+            .number {
+                font-size: 14px;
+                color: #000;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .hidden-header-menu {
+        .menu-bar {
+            text-align: center;
+
+            .menu-top {
+                .private-business {
+                    margin-top: 30px;
+                    margin-bottom: 20px;
+                }
+
+                .private {
+                    line-height: 12px;
+                    font-size: 12px;
+                    padding: 10px 17px;
+                    background-color: #fff;
+                    border-radius: 5px;
+                }
+
+                .business {
+                    line-height: 12px;
+                    font-size: 12px;
+                    padding: 10px 17px;
+                    background-color: #fff;
+                    border-radius: 5px;
+                }
+            }
+
+            .menu-bar-links {
+                .links {
+                    display: flex;
+                    flex-direction: column;
+
+                    a {
+                        padding: 10px 0;
+                        line-height: 20px;
+                        font-size: 20px;
+                        font-weight: 600;
+                        line-height: 18px;
+                    }
+
+                }
+            }
+
+            .menu-bar-bottom {
+                .bottom-links {
+                    display: flex;
+                    flex-direction: column;
+
+                    a {
+                        color: rgba(0, 0, 0, .4);
+                        border-bottom: 1px solid rgba(255, 255, 255, .2);
+                        font-weight: 400;
+                        font-size: 14px;
+                        padding: 12px 0;
+                    }
+                }
+
+            }
+
+            .menu-bottom-tools {
+                .theme {
+                    a {
+                        i {
+                            font-size: 13px;
+                            color: #fff;
+                            padding: 10px 12px;
+                            border-radius: 5px;
+                            background-color: #323232;
+                        }
+                    }
+                }
+
+                .search {
+                    cursor: pointer;
+                    margin-left: 10px;
+                    width: 35px;
+
+                    i {
+                        line-height: 12px;
+                        font-weight: 600;
+                        font-size: 12px;
+                        color: #323232;
+                        border-radius: 5px;
+                        padding: 10px 12px;
+                        background-color: #fff;
+                    }
+                }
+
+                .lang {
+                    a {
+                        line-height: 12px;
+                        font-weight: 600;
+                        font-size: 12px;
+                        color: #323232;
+                        padding: 10px 12px;
+                        border-radius: 5px;
+                        background-color: #fff;
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+    .alert-basket {
+        width: 50%;
+    }
+    .basket-info {
+        text-align: center;
+        margin-top: 40px;
+    }
+    .alert {
+        span {
+            font-size: 12px;
+        }
+    }
+
+}
+.active-menu {
+    opacity: 1;
+    height: auto;
+    height: calc(100vh - 55px);
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    z-index: 20;
+    transition: all .4s ease-in-out;
+}
+
+.private_business_btns {
+    color: #FF7A00 !important;
+    border-radius: 5px;
+    border: 1px solid #FF7A00;
+    font-weight: 600;
+}
+
+// hr icon
+@media (min-width: 576px) {
+    #right-icon {
+        display: none;
+    }
+}

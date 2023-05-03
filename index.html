@@ -1,19 +1,1191 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/CSS/style.scss">
-    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/CSS/bootstrap.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
+
 </head>
+
 <body>
+    <!-- Header Starts -->
+    <header>
+        <div class="container">
+            <div class="all-header">
+                <div class="top-header d-flex mt-3">
+                    <div class="left-top d-flex">
+                        <div class="logo">
+                            <a class="unibank-logo" href="index.html">
+                                <img src="./assets/images/logonew-orange1.webp" alt="logo">
+                            </a>
+                        </div>
+                        <div class="links">
+                            <a href="services.html">Xidmət şəbəkəsi</a>
+                            <a href="#">Bank haqqında</a>
+                            <a href="#">Keşbek</a>
+                            <a href="#">Tariflər</a>
+                            <a href="human-resources.html">İnsan Resursları</a>
+                            <a href="#">Bankla əlaqə və təkliflər</a>
+                        </div>
+                    </div>
+                    <div class="right-top d-flex">
+                        <div class="pr-bs">
+                            <a class="private pr-bs-design" href="#">Fərdi</a>
+                            <a class="business" href="#">Biznes</a>
+                        </div>
+                        <div class="theme">
+                            <a href="#">
+                                <i class="fi fi-rs-moon-stars"></i>
+                                <div class="sun-icon d-none">
+                                    <i class="fas fa-sun"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="lang">
+                            <a href="#">ENG</a>
+                            <a href="#">RUS</a>
+                        </div>
+                        <div class="search">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-header d-flex justify-content-between align-items-center mt-4">
+                    <div class="bottom-left d-flex">
+                        <a href="cards.html">Kartlar</a>
+                        <a href="#">Kreditlər</a>
+                        <a href="#">Əmanətlər</a>
+                        <a href="#">Köçürmələr</a>
+                        <a href="#">Rəqəmsal bankçılıq</a>
+                        <a href="#">Əlavə xidmətlər</a>
+                    </div>
+                    <div class="bottom-right">
+                        <a class="basket" href="/basket.html">
+                            <i class="fas fa-bag-shopping">
+                                <span id="total-count">0</span>
+                            </i>
+                        </a>
+                        <a class="phone" href="#">
+                            <span class="icon"><i class="fas fa-phone"></i></span>
+                            <span class="number">117</span>
+                        </a>
+                        <a class="internet-banking" href="banking.html">
+                            <span class="banking-icon"><i class="fas fa-arrow-right"></i></span>
+                            <span class="banking-name">İnternet bankçılıq</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Ends -->
+
+    <!-- Mobile-Header -->
+    <section id="mob-header">
+        <div class="container">
+            <div class="mobile-header">
+                <div class="burger-icon">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="logo">
+                    <a class="unibank-logo" href="index.html">
+                        <img src="./assets/images/logonew-orange1.webp" alt="logo">
+                    </a>
+                </div>
+                <div class="mobile-right d-flex">
+                    <a class="basket" href="/basket.html">
+                        <i class="fas fa-bag-shopping">
+                            <span id="total-count2">0</span>
+                        </i>
+                    </a>
+                    <a class="phone" href="#">
+                        <span class="icon"><i class="fas fa-phone"></i></span>
+                        <span class="number">117</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Mobile-Ends -->
+
+    <!-- Hidden-Mobile-Header Starts -->
+    <section id="hidden-header">
+        <div class="container">
+            <div class="hidden-header-menu">
+                <div class="menu-bar">
+                    <div class="menu-top">
+                        <div class="private-business">
+                            <a class="private private_business_btns" href="#">Fərdi</a>
+                            <a class="business" href="#">Biznes</a>
+                        </div>
+                    </div>
+                    <div class="menu-bar-links">
+                        <div class="links">
+                            <a href="cards.html">Kartlar</a>
+                            <a href="#">Kreditlər</a>
+                            <a href="#">Əmanətlər</a>
+                            <a href="#">Köçürmələr</a>
+                            <a href="#">Rəqəmsal bankçılıq</a>
+                            <a href="#">Əlavə xidmətlər</a>
+                        </div>
+                    </div>
+                    <div class="menu-bar-bottom">
+                        <div class="bottom-links">
+                            <a href="services.html">Xidmət şəbəkəsi</a>
+                            <a href="#">Bank haqqında</a>
+                            <a href="#">Keşbek</a>
+                            <a href="#">Tariflər</a>
+                            <a href="human-resources.html">İnsan Resursları</a>
+                            <a href="#">Bankla əlaqə və təkliflər</a>
+                        </div>
+                    </div>
+                    <div class="menu-bottom-tools d-flex justify-content-center align-items-center">
+                        <div class="theme">
+                            <a href="#">
+                                <i class="fi fi-rs-moon-stars "></i>
+                                <div class="sun-icon d-none">
+                                    <i class="fas fa-sun"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="search">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="lang">
+                            <a href="#">ENG</a>
+                            <a href="#">RUS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Hidden-Mobile-Header Ends -->
 
 
-    
-    <script src="./assets/JS/app.js"></script>
+    <!-- Search-Input Starts -->
+    <section id="search-input">
+        <div class="wrapper d-none">
+            <div class="search-inp">
+                <div class="close-icon">
+                    <i class="fa-solid fa-x"></i>
+                </div>
+                <p>Axtarış</p>
+                <div class="inp">
+                    <input type="text">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="addition-inputs d-none mt-5">
+                    <div class="addition-inp">
+                        <p>Məhsullar</p>
+                    </div>
+                    <div class="addition-inp">
+                        <p>Xəbərlər</p>
+                    </div>
+                    <div class="addition-inp">
+                        <p>Digər</p>
+                    </div>
+                </div>
+                <div class="button d-none">
+                    <a href="#">Bütün nəticələr</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Search-Input Ends -->
+
+
+    <!-- Slider Starts -->
+    <section id="mainPage-slider">
+        <div class="container">
+            <div class="sliders">
+                <div class="slider">
+                    <div class="slider-left first-img">
+                        <div class="slider-image ">
+                            <img src="./assets/images/200.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="slider-right">
+                        <div class="title">
+                            <h3>Ləğv olundu!</h3>
+                        </div>
+                        <div class="text">
+                            <p>
+                                Artıq UCard-la dünyanın istənilən yanacaqdoldurma, kafe-restoran və marketlərində 5%
+                                keşbek qazanmaq üçün 200 AZN dövriyyə tələbi yoxdur!
+                            </p>
+                        </div>
+                        <div class="button-more">
+                            <a href="#">Ətraflı</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="slider-left second-img">
+                        <div class="slider-image">
+                            <img src="./assets/images/money-save.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="slider-right">
+                        <div class="title">
+                            <h3>Topla</h3>
+                        </div>
+                        <div class="text">
+                            <p>
+                                İstənilən arzunu reallaşdır! Hədəfinə ad ver və daxılına pul köçürməyə başla!
+                            </p>
+                        </div>
+                        <div class="button-more">
+                            <a href="#">Ətraflı</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="slider-left third-img">
+                        <div class="slider-image">
+                            <img src="./assets/images/mob-pay.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="slider-right">
+                        <div class="title">
+                            <h3>Sənin kartın, sənin “art”ın!</h3>
+                        </div>
+                        <div class="text">
+                            <p>UBank-a daxil ol, Apple Wallet / Google Wallet™dakı Unibank kartlarını istədiyin dizayna
+                                dəyiş və hamıdan fərqli ol!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="slider-left last-img">
+                        <div class="slider-image">
+                            <img src="./assets/images/mobile-pay.gif" alt="">
+                        </div>
+                    </div>
+                    <div class="slider-right">
+                        <div class="title">
+                            <h3>Kartdan karta - pulsuzdur!</h3>
+                        </div>
+                        <div class="text">
+                            <p>Unibank kartlarına limitsiz, ölkədaxili digər bank kartlarına isə 2000 AZN-dək
+                                köçürmələri 0% ilə et!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Slider Ends -->
+
+    <!-- Cards Starts -->
+    <section id="main-page-cards">
+        <div class="container">
+            <div class="all-cards row">
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="card">
+                        <div class="card-contents">
+                            <p class="card-name">Nağd kreditlər</p>
+                            <p class="card-percentage">16%</p>
+                            <p class="card-last-p">-dən başlayaraq </p>
+                        </div>
+                        <div class="card-button">
+                            <a href="#">Ətraflı</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="card">
+                        <div class="card-contents">
+                            <p class="card-name">Nağd kreditlər</p>
+                            <p class="card-percentage">16%</p>
+                            <p class="card-last-p">-dən başlayaraq </p>
+                        </div>
+                        <div class="card-button">
+                            <a href="#">Ətraflı</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="card">
+                        <div class="card-contents">
+                            <p class="card-name">Nağd kreditlər</p>
+                            <p class="card-percentage">16%</p>
+                            <p class="card-last-p">-dən başlayaraq </p>
+                        </div>
+                        <div class="card-button">
+                            <a href="#">Ətraflı</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="card">
+                        <div class="card-contents">
+                            <p class="card-name">Nağd kreditlər</p>
+                            <p class="card-percentage">16%</p>
+                            <p class="card-last-p">-dən başlayaraq </p>
+                        </div>
+                        <div class="card-button">
+                            <a href="#">Ətraflı</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Cards Ends -->
+
+    <!-- All-UCcard Starts -->
+    <section id="UCcard">
+        <div class="container">
+            <div class="all-UCcard">
+                <div class="left">
+                    <img src="./assets/images/ucard (3).webp" alt="">
+                </div>
+                <div class="right">
+                    <div class="uccard-title">
+                        <h3>Sənin kartın - UCarddır!</h3>
+                    </div>
+                    <div class="uccard-text">
+                        <p>Bu kart sənə dünyanın istənilən yerində multivalyutalı hesablarla alış-veriş imkanı, 10 000
+                            ₼-dək və 40 günədək faizsiz kredit xətti, 30%-dək keşbek və illik 6%-dək gəlir əldə etmək
+                            imkanı verir. Bir sözlə, bütün ehtiyaclar tək kartda!</p>
+                    </div>
+                    <div class="uccard-buttons">
+                        <a class="more" href="#">Ətraflı</a>
+                        <div class="last-btns">
+                            <a class="uc-btn" href="#">Partnyorlar</a>
+                            <a class="uc-btn" href="#">Şəxsi kabinet</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- All-UCcard Ends -->
+
+    <!-- section UBank Starts -->
+    <section id="UBank">
+        <div class="container">
+            <div class="all-ubank d-flex align-items-center">
+                <div class="left-ubank">
+                    <div class="ubank-title">
+                        <h3>UBank</h3>
+                    </div>
+                    <div class="ubank-content">
+                        <div class="ubank-text">
+                            <p>UBank 24/7 bank xidmətlərinə çıxışı smartfonunda təmin edən mobil əlavədir. Ödənişlərini
+                                banka gəlmədən, telefonunuzda bir toxunuşla həyata keçir! </p>
+                        </div>
+                        <div class="get-it">
+                            <a href="#">
+                                <img src="./assets/images/playstore.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/images/appstore.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/images/app-gallery.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <a class="about-btn" href="#">Haqqında</a>
+                </div>
+                <div class="right-ubank">
+                    <img src="./assets/images/appbar2.webp" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- section UBank Ends -->
+
+    <!-- section Exchange Rate Starts-->
+    <section id="rate">
+        <div class="container mt-4">
+            <div class="exchange-rate">
+                <div class="rate-title">
+                    <h2>Valyuta məzənnələri</h2>
+                </div>
+                <div class="exchange-body d-flex align-items-center ">
+                    <div class="table first">
+                        <div class="header">
+                            <div class="exchange-header">
+                                <h4>Nağd</h4>
+                            </div>
+                            <div class="date">
+                                <p>Yeniləndi 20.04.2023</p>
+                            </div>
+                        </div>
+                        <div class="body">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Valyuta</th>
+                                        <th>Alış</th>
+                                        <th>Satış</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>USD</td>
+                                        <td>1.6970
+                                            <img style="width: 10px;"
+                                                src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                alt="">
+                                        </td>
+                                        <td>1.7015
+                                            <img style="width: 10px;"
+                                                src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                alt="">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>EUR</td>
+                                        <td>1.8313
+                                            <img style="width: 10px;"
+                                                src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                alt="">
+                                        </td>
+                                        <td>1.8886
+                                            <img style="width: 10px;"
+                                                src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                alt="">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>RUB</td>
+                                        <td>0.0199
+                                            <img style="width: 10px;"
+                                                src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                alt="">
+                                        </td>
+                                        <td>0.0212
+                                            <img style="width: 10px;"
+                                                src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                alt="">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>GBP</td>
+                                        <td>2.0816
+                                            <img style="width: 10px;"
+                                                src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                alt="">
+                                        </td>
+                                        <td>2.1492
+                                            <img style="width: 10px;"
+                                                src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                alt="">
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+
+                            </table>
+                        </div>
+                    </div>
+                    <div class="table second">
+                        <div class="header">
+                            <div class="exchange-header">
+                                <h4>Nağdsız</h4>
+                            </div>
+                            <div class="date">
+                                <p>Yeniləndi 20.04.2023</p>
+                            </div>
+                        </div>
+                        <div class="body">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Valyuta</th>
+                                        <th>Alış</th>
+                                        <th>Satış</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>USD</td>
+                                        <td>1.6900
+                                            <img style="width: 10px;"
+                                                src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                alt="">
+                                        </td>
+                                        <td>1.7025
+                                            <img style="width: 10px;"
+                                                src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                alt="">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>EUR</td>
+                                        <td>1.8373
+                                            <img style="width: 10px;"
+                                                src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                alt="">
+                                        </td>
+                                        <td>1.8962
+                                            <img style="width: 10px;"
+                                                src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                alt="">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>RUB</td>
+                                        <td>0.0199
+                                            <img style="width: 10px;"
+                                                src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                alt="">
+                                        </td>
+                                        <td>1.8962
+                                            <img style="width: 10px;"
+                                                src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                alt="">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>GBP</td>
+                                        <td>2.0753
+                                            <img style="width: 10px;"
+                                                src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                alt="">
+                                        </td>
+                                        <td>2.1503
+                                            <img style="width: 10px;"
+                                                src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                alt="">
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+
+                            </table>
+                        </div>
+                    </div>
+                    <div class="table last">
+                        <div class="header">
+                            <div class="exchange-header">
+                                <h4>Kart</h4>
+                            </div>
+                            <div class="date">
+                                <p>Yeniləndi 20.04.2023</p>
+                            </div>
+                        </div>
+                        <div class="body">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Valyuta</th>
+                                        <th>Alış</th>
+                                        <th>Satış</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>USD</td>
+                                        <td>1.6915
+                                            <img style="width: 10px;"
+                                                src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                alt="">
+                                        </td>
+                                        <td>1.7100
+                                            <img style="width: 10px;"
+                                                src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                alt="">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>EUR</td>
+                                        <td>1.8448
+                                            <img style="width: 10px;"
+                                                src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                alt="">
+                                        </td>
+                                        <td>1.8820
+                                            <img style="width: 10px;"
+                                                src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                alt="">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>RUB</td>
+                                        <td>0.0204
+                                            <img style="width: 10px;"
+                                                src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                alt="">
+                                        </td>
+                                        <td>0.0212
+                                            <img style="width: 10px;"
+                                                src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                alt="">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>GBP</td>
+                                        <td>2.0922
+                                            <img style="width: 10px;"
+                                                src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                alt="">
+                                        </td>
+                                        <td>2.1344
+                                            <img style="width: 10px;"
+                                                src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                alt="">
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile-exchange-menu d-none">
+                    <div class="exchange-tabMenu">
+                        <div class="menu-tabLinks">
+                            <a data-id="22" class="all-branches active-header" href="#">Nağd</a>
+                            <a data-id="23" class="all-branches" href="#">Nağdsız</a>
+                            <a data-id="24" class="all-branches" href="#">Kart</a>
+                        </div>
+                        <div class="tab-contents">
+                            <div id="22" class="tab-content">
+                                <div class="date">
+                                    <p>Yeniləndi 20.04.2023</p>
+                                </div>
+                                <div class="body">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Valyuta</th>
+                                                <th>Alış</th>
+                                                <th>Satış</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>USD</td>
+                                                <td>1.6915
+                                                    <img style="width: 10px;"
+                                                        src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                        alt="">
+                                                </td>
+                                                <td>1.7100
+                                                    <img style="width: 10px;"
+                                                        src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                        alt="">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>EUR</td>
+                                                <td>1.8448
+                                                    <img style="width: 10px;"
+                                                        src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                        alt="">
+                                                </td>
+                                                <td>1.8820
+                                                    <img style="width: 10px;"
+                                                        src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                        alt="">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>RUB</td>
+                                                <td>0.0204
+                                                    <img style="width: 10px;"
+                                                        src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                        alt="">
+                                                </td>
+                                                <td>0.0212
+                                                    <img style="width: 10px;"
+                                                        src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                        alt="">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>GBP</td>
+                                                <td>2.0922
+                                                    <img style="width: 10px;"
+                                                        src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                        alt="">
+                                                </td>
+                                                <td>2.1344
+                                                    <img style="width: 10px;"
+                                                        src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                        alt="">
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+
+                                    </table>
+                                </div>
+                            </div>
+                            <div id="23" class="tab-content d-none">
+                                <div class="date">
+                                    <p>Yeniləndi 20.04.2023</p>
+                                </div>
+                                <div class="body">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Valyuta</th>
+                                                <th>Alış</th>
+                                                <th>Satış</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>USD</td>
+                                                <td>1.6900
+                                                    <img style="width: 10px;"
+                                                        src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                        alt="">
+                                                </td>
+                                                <td>1.7025
+                                                    <img style="width: 10px;"
+                                                        src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                        alt="">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>EUR</td>
+                                                <td>1.8373
+                                                    <img style="width: 10px;"
+                                                        src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                        alt="">
+                                                </td>
+                                                <td>1.8962
+                                                    <img style="width: 10px;"
+                                                        src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                        alt="">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>RUB</td>
+                                                <td>0.0199
+                                                    <img style="width: 10px;"
+                                                        src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                        alt="">
+                                                </td>
+                                                <td>1.8962
+                                                    <img style="width: 10px;"
+                                                        src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                        alt="">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>GBP</td>
+                                                <td>2.0753
+                                                    <img style="width: 10px;"
+                                                        src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                        alt="">
+                                                </td>
+                                                <td>2.1503
+                                                    <img style="width: 10px;"
+                                                        src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                        alt="">
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div id="24" class="tab-content d-none">
+                                <div class="date">
+                                    <p>Yeniləndi 20.04.2023</p>
+                                </div>
+                                <div class="body">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Valyuta</th>
+                                                <th>Alış</th>
+                                                <th>Satış</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>USD</td>
+                                                <td>1.6915
+                                                    <img style="width: 10px;"
+                                                        src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                        alt="">
+                                                </td>
+                                                <td>1.7100
+                                                    <img style="width: 10px;"
+                                                        src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                        alt="">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>EUR</td>
+                                                <td>1.8448
+                                                    <img style="width: 10px;"
+                                                        src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                        alt="">
+                                                </td>
+                                                <td>1.8820
+                                                    <img style="width: 10px;"
+                                                        src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                        alt="">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>RUB</td>
+                                                <td>0.0204
+                                                    <img style="width: 10px;"
+                                                        src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                        alt="">
+                                                </td>
+                                                <td>0.0212
+                                                    <img style="width: 10px;"
+                                                        src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                        alt="">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>GBP</td>
+                                                <td>2.0922
+                                                    <img style="width: 10px;"
+                                                        src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                        alt="">
+                                                </td>
+                                                <td>2.1344
+                                                    <img style="width: 10px;"
+                                                        src="./assets/icons/3994355_arrow_bottom_down_downward_navigation_icon.svg"
+                                                        alt="">
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="exchange-calculator d-flex">
+                    <div class="calc-header">
+                        <h4>Valyuta kalkulyatoru</h4>
+                        <p>Nağd məzənnə əsasında hesablanır</p>
+                    </div>
+                    <div class="calculator-input">
+                        <div class="first-calculator">
+                            <input type="number" id="curr-input" placeholder="0">
+                            <select class="currency-dropdown" id="curr-base" name="state">
+                                <option value="usd">USD</option>
+                                <option value="rub">RUB</option>
+                                <option value="gbp">GBP</option>
+                                <option value="eur">EUR</option>
+                                <option value="azn">AZN</option>
+                            </select>
+                        </div>
+                        <div class="arrow-right">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                        <div class="first-calculator">
+                            <input type="number" id="curr-output" placeholder="0">
+                            <select class="currency-dropdown" id="curr-target" name="state">
+                                <option value="usd">USD</option>
+                                <option value="rub">RUB</option>
+                                <option value="gbp">GBP</option>
+                                <option value="eur">EUR</option>
+                                <option value="azn">AZN</option>
+                            </select>
+                        </div>                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section Exchange Rate Ends-->
+
+    <!-- Section News Starts -->
+    <section id="news">
+        <div class="container">
+            <div class="all-news row mt-4">
+                <div class="col-lg-4 col-12">
+                    <div class="news-box">
+                        <div class="box-title">
+                            <h6>Sənin kartın 1 yaşını qeyd edir</h6>
+                        </div>
+                        <div class="box-text">
+                            <p>
+                                Ölkə bank bazarında ilk olaraq kredit və multivalyutalı debet kartını özündə birləşdirən
+                                tək kartın – “Unibank”ın UCard məhsulunun müştərilərin istifadəsinə verilməsindən 1 il
+                                ötür. Dörd fərqli valyutada hesabları olan (AZN, USD, EUR, GBP) debet kartını və AZN
+                                valyutalı kredit xəttini birləşdirən UCard, hər parametri ilə müştərinin tələbatına və
+                                rahatlığına uyğunlaşdırılan kart məhsuludur. Bir il ərzində UCard ölkə kart bazarının ən
+                                çox istifadə olunan bank kartlarından birinə çevrilib.
+                            </p>
+                        </div>
+                        <div class="news-date">
+                            <p>13.04.2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="news-box">
+                        <div class="box-title">
+                            <h6>Unibank kartlarında 200 AZN dövriyyə tələbi ləğv edildi </h6>
+                        </div>
+                        <div class="box-text">
+                            <p>
+                                İndi Unibank kart sahiblərinin ay ərzində yüksək keşbek qazanmaq imkanı daha da artıb.
+                                Çünki artıq UCard-la yanacaqdoldurma, kafe-restoran və marketlərdə 5% keşbek qazanmaq
+                                üçün 200 manat dövriyyə tələbi yoxdur. Qeyd olunan xidmət və ticarət obyektlərində Apple
+                                Pay və Google Pay ilə ödəniş edən UCard sahibləri dövriyyə tələbi olmadan, dərhal 5%
+                                keşbek qazanacaqlar.
+                            </p>
+                            <div class="news-date">
+                                <p>13.04.2023</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-12">
+                    <div class="news-box">
+                        <div class="box-title">
+                            <h6>Unibank storage alınması üçün tender keçirir</h6>
+                        </div>
+                        <div class="box-text">
+                            <p>
+                                Unibank KB storage alınması üçün tender keçirir. Tenderdə iştirak etmək istəyənlər
+                                qiymət təkliflərini bağlı və möhürlənmiş zərfdə Tender komissiyasının sədri Faiq
+                                Zeynalovun adına göndərməlidirlər. Zərflərin qəbulu üçün son tarix 14.04.2023 il, saat
+                                12.00-dır.
+                            </p>
+                        </div>
+                        <div class="news-date">
+                            <p>13.04.2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-btn">
+                    <a href="#">Bütün xəbərlər</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section News Ends -->
+
+
+    <!-- Service-Network Starts -->
+    <section id="service-network">
+        <div class="container">
+            <div class="all-network mt-5 ">
+                <div class="left">
+                    <div class="net-left">
+                        <div class="net-title">
+                            <h3>Xidmət şəbəkəsi</h3>
+                        </div>
+                        <div class="net-text">
+                            <p>Filial və UTM-lərin ünvanları, həmçinin - iş saatları və digər məlumatlar haqqında
+                                ətraflı.
+                            </p>
+                        </div>
+                        <div class="net-btn">
+                            <a href="#">Daha ətraflı</a>
+                        </div>
+                        <div class="net-image">
+                            <img src="./assets/images/Bitmap.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <div class="net-right">
+                        <div class="right-title">
+                            <h3>Sualın var?<br>
+                                Bizimlə əlaqə saxla!
+                            </h3>
+                        </div>
+                        <div class="right-text">
+                            <p>Onlayn-məsləhətçi, 117 Çağrı mərkəzi və ya bank filiallarına müraciət et və suallarına
+                                cavab al. Rahat və asan!
+                            </p>
+                        </div>
+                        <div class="right-image">
+                            <img src="./assets/images/callcenter.svg" alt="">
+                        </div>
+                        <div class="right-btn">
+                            <a href="#">Daha ətraflı</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service-Network Ends -->
+
+    <!-- Footer Starts -->
+    <footer>
+        <div class="container mt-5">
+            <div class="all-footer">
+                <div class="footer-menus d-flex justify-content-between">
+                    <div class="footer-menu">
+                        <div class="menu-title">
+                            <a href="#">Kartlar</a>
+                        </div>
+                        <div class="menu-content">
+                            <a href="#">Kartlar</a>
+                            <a href="#">Debet kartlar</a>
+                            <a href="#">Digər</a>
+                        </div>
+                    </div>
+                    <div class="footer-menu">
+                        <div class="menu-title">
+                            <a href="#">Kreditlər</a>
+                        </div>
+                        <div class="menu-content">
+                            <a href="#">Nağd</a>
+                            <a href="#">Mikro</a>
+                            <a href="#">İpoteka</a>
+                        </div>
+                    </div>
+                    <div class="footer-menu">
+                        <div class="menu-title">
+                            <a href="#">Əmanətlər</a>
+                        </div>
+                        <div class="menu-content">
+                            <a href="#">Müddətli</a>
+                            <a href="#">Proqressiv</a>
+                            <a href="#">Yığım</a>
+                            <a href="#">Faizlər əvvəlcədən</a>
+                            <a href="#">Topla</a>
+                        </div>
+                    </div>
+                    <div class="footer-menu">
+                        <div class="menu-title">
+                            <a href="#">Köçürmələr</a>
+                        </div>
+                        <div class="menu-content">
+                            <a href="#">Ölkəxarici</a>
+                            <a href="#">Ölkədaxili</a>
+                        </div>
+                    </div>
+                    <div class="footer-menu">
+                        <div class="menu-title">
+                            <a href="#">Rəqəmsal bankçılıq</a>
+                        </div>
+                        <div class="menu-content">
+                            <a href="#">UBank</a>
+                            <a href="#">İnternet bankçılıq</a>
+                            <a href="#">Şəxsi kabinet</a>
+                            <a href="#">Unimiles şəxsi kabinet</a>
+                            <a href="#">Onlayn kredit ödənişi</a>
+                            <a href="#">Onlayn kredit müraciəti</a>
+                        </div>
+                    </div>
+                    <div class="footer-menu">
+                        <div class="menu-title">
+                            <a href="#">Əlavə xidmətlər</a>
+                        </div>
+                        <div class="menu-content">
+                            <a href="#">Hesablaşma-kassa xidməti</a>
+                            <a href="#">POS terminal / Smart kassa</a>
+                            <a href="#">Depozit qutuları</a>
+                            <a href="#">Onlayn ticarət (eCommerce)</a>
+                        </div>
+                    </div>
+                    <div class="footer-menu">
+                        <div class="menu-title">
+                            <a href="#">Bank haqqında</a>
+                        </div>
+                        <div class="menu-content">
+                            <a href="#">Rəhbərlik</a>
+                            <a href="#">Müxbir hesablar</a>
+                            <a href="#">Təklif və Şikayətlər</a>
+                            <a href="#">İnsan resursları</a>
+                            <a href="#">Hesabatlar</a>
+                            <a href="#">Digər sənədlər</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-icons">
+                    <a class="apple" href="https://itunes.apple.com/ru/app/unibank-mobile/id1073632425">
+                        <i class="fa-brands fa-apple"></i>
+                    </a>
+                    <a class="android" href="https://play.google.com/store/apps/details?id=az.unibank.mbanking">
+                        <i class="fas fa-robot"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-telegram"></i>
+                    </a>
+
+                </div>
+                <div class="footer-bottom">
+                    <div class="footer-left">
+                        <p>© 2023, Unibank - Sənin Bankın</p>
+                        <span>Unibank Azərbaycan Respublikası Mərkəzi Bankının 73 saylı 14 dekabr 2010-cu il tarixli
+                            lisenziyası əsasında fəaliyyət göstərir. </span><br>
+                        <span>Bütün hüquqlar qorunur.</span>
+                    </div>
+                    <div class="footer-partners">
+                        <a class="partner" href="#">
+                            <img class="insurance" src="./assets/images/adif.webp" alt="">
+                        </a>
+                        <a class="partner" href="#">
+                            <img class="insurance" src="./assets/images/adif.webp" alt="">
+                        </a>
+                        <a class="partner" href="#">
+                            <img class="infobank" src="./assets/images/infobank.webp" alt="">
+                        </a>
+                        <a class="partner" href="#">
+                            <img class="finance" src="./assets/images/msp.webp" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Ends -->
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="/assets/JS/app.js"></script>
 </body>
+
 </html>

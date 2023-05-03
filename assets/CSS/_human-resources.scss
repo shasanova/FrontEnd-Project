@@ -1,0 +1,375 @@
+.titles {
+    color: #FF6400;
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.texts {
+    font-weight: 400;
+    font-size: 12px;
+    color: #000;
+    line-height: 1.43;
+    margin-top: 15px;
+    padding-right: 18px;
+}
+
+.names {
+    font-weight: 600;
+    font-size: 18px;
+    color: #000;
+    line-height: normal;
+    margin-bottom: 5px;
+
+}
+
+.tab-menu {
+    .service-contents {
+        .content {
+            .hr-cards {
+                .hr-card {
+                    background: #FAFAFA;
+                    border-radius: 10px;
+                    padding: 45px 56px;
+                    text-align: center;
+                    margin-bottom: 20px;
+                    height: 253px;
+                    &:hover{
+                        background-color: #ff6400;
+                        .hr-img{
+                            #hr-icon {
+                                border-radius: 50%;
+                            }
+                        }
+                        .hr-body {
+                            h4,
+                            p{
+                               color: #fff; 
+                            }                         
+                        }
+                    }
+                    .hr-img {
+                        text-align: center;                      
+                        #hr-icon {
+                            width: 64px;
+                            height: 64px;
+                            margin-bottom: 10px;
+                            border-radius: 50%;
+                        }
+                    }
+                    .hr-body {
+                        h4 {
+                            font-weight: 600;
+                            font-size: 18px;
+                            color: #000;
+                            line-height: normal;
+                            margin-bottom: 10px;
+                        }
+                        p {
+                            font-weight: 400;
+                            font-size: 12px;
+                            color: rgba(0, 0, 0, .8);
+                            line-height: normal;
+                            margin-bottom: 20px;
+                        }
+                    }
+
+                }
+
+            }
+
+            .employees {
+                .emp-box {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    padding: 45px 65px;
+                    border-radius: 10px;
+                    background-color: #fafafa;
+                    margin-bottom: 0;
+                    margin-top: 40px;
+                    height: 349px;
+
+                    .box-img {
+                        img {
+                            width: 106px;
+                            height: 106px;
+                            border-radius: 50%;
+                        }
+                    }
+
+                    #emp-name {
+                        @extend .names;
+                    }
+
+                    #emp-position {
+                        font-weight: 400;
+                        font-size: 12px;
+                        color: rgba(0, 0, 0, .5);
+                        line-height: normal;
+                    }
+
+                    #emp-text {
+                        @extend .texts;
+                    }
+                }
+            }
+
+            .about-us {
+                padding: 45px 65px;
+                margin: 30px 0;
+
+                .title {
+                    h2 {
+                        @extend .titles;
+                    }
+                }
+
+                p {
+                    @extend .texts;
+                    padding-right: 40px;
+                }
+            }
+
+            .benefits {
+                text-align: center;
+                margin-bottom: 20px;
+
+                .benefit {
+                    background-color: #FF6400;
+                    padding: 35px 50px;
+                    border-radius: 10px;
+                    height: 200px;
+                    color: #fff;
+                    margin-bottom: 20px;
+
+                    i {
+                        font-size: 45px;
+                        margin-bottom: 10px;
+                    }
+
+                    p {
+                        font-size: 12px;
+                        color: #fff;
+                        line-height: 1.43;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+
+            .values {
+                padding-left: 18px;
+                padding-right: 18px;
+                margin-bottom: 30px;
+
+                h2 {
+                    @extend .titles;
+                    margin-bottom: 17px
+                }
+
+                .value-hr-card {
+                    h5 {
+                        @extend .names;
+                    }
+
+                    p {
+                        @extend .texts;
+                        line-height: 20px;
+                    }
+
+                }
+            }
+
+            #vacancies {
+                .vacancy {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 40px 65px 20px;
+                    background: #FAFAFA;
+                    margin-top: 20px;
+
+                    .vc-titles {
+                        a {
+                            h5 {
+                                font-weight: 600;
+                                font-size: 13px;
+                                color: #000;
+                                line-height: normal;
+                                margin-bottom: 0px;
+                            }
+
+                            span {
+                                font-size: 12px;
+                                color: rgba(0, 0, 0, .5);
+                            }
+                        }
+                    }
+
+                    .vc-button {
+                        display: flex;
+                        align-items: center;
+
+                        a {
+                            padding: 14px 30px;
+                            font-size: 12px;
+                            line-height: 14px;
+                            background: #ff6400;
+                            border-radius: 25px;
+                            box-shadow: 0 10px 10px -10px rgba(255, 107, 0, .51);
+                            color: #fff;
+                            font-weight: 600;
+                            margin-right: 20px;
+
+                            i {
+                                font-size: 14px;
+                                margin-left: 10px;
+                            }
+                        }
+
+                    }
+
+                }
+            }
+
+            .workAtUnibank {
+                .textt{
+                    font-size: 12px;
+                }
+                .page-photo {
+                    background-image: radial-gradient(circle at 49% 20%, rgba(221, 221, 221, .44), rgba(255, 255, 255, 0) 100%), linear-gradient(to bottom, #ff6b00, #ff6b00), linear-gradient(to bottom, #5a6771, #5a6771) !important;
+                    border-radius: 10px;
+                    height: 325px;
+                    display: flex;
+                    align-items: center;
+                    padding: 0 65px;
+                    margin: 30px 0;
+
+                    .image {
+                        position: relative;
+                        width: 35%;
+                        height: 100%;
+                        margin-right: 10px;
+
+                        img {
+                            max-width: 100%;
+                            box-shadow: unset;
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            height: 350px;
+                            width: auto;
+                            margin-top: 0;
+                            border-radius: 0;
+                        }
+                    }
+
+                    .workAtUnibank-texts {
+                        color: #fff;
+
+                        h2 {
+                            font-weight: 700;
+                            font-size: 32px;
+                            line-height: normal;
+                        }
+
+                        span {
+                            font-size: 13px;
+                        }
+                    }
+                }
+
+                .work-info {
+                    p {
+                        font-weight: 400;
+                        font-size: 13px;
+                        line-height: 23px;
+                    }
+                }
+
+                .hr-events {
+                    .events-title {
+                        font-weight: 800;
+                    }
+
+                    .event {
+                        text-align: center;
+
+                        a {
+                            img {
+                                border-radius: 5px;
+                                margin-bottom: 17px;
+                                overflow: hidden;
+                                height: 162px;
+                                width: 219px;
+                                object-fit: cover;
+                            }
+                        }
+
+                        h5 {
+                            font-weight: 700;
+                            font-size: 14px;
+                            line-height: normal;
+                            padding: 2px 77px;
+                            margin-bottom: 0;
+                        }
+
+                        span {
+                            font-size: 12px;
+                            color: #c2c6ca;
+                        }
+                    }
+                }
+
+                .human-capital-sliders {
+                    text-align: center;
+                    padding: 0 60px;
+
+                    .slide{
+                        padding: 30px 0;
+                        text-align: center;
+                        margin-bottom: 50px; 
+                        img {
+                            width: 100px;
+                            height: 100px;
+                            object-fit: cover;
+                            border-radius: 177px;
+                            margin-bottom: 20px;
+                            margin-right: 0;
+                            display: inline;
+                        }
+                        .hm {
+                            width: 100%;
+                            .hm-body{
+                                h5{
+                                    font-size: 20px;
+                                    font-weight: 700;
+                                    margin-bottom: 0;
+                                }
+                                span{
+                                    font-size: 12px;
+                                    color: #c2c2c2;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+.slick-arrow {
+	z-index: 9999;
+	width: 40px;
+	height: 40px;
+    color: #ff6400;
+    margin-right: 120px;
+    margin-left: 120px;
+    &:before{
+        color: gray;
+    }
+}
+
+

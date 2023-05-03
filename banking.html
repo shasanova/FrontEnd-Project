@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <!-- <link rel="stylesheet" href="./assets/CSS/_ebank.css">  -->
+    <link rel="stylesheet" href="./assets/CSS/bootstrap.css">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <link rel="stylesheet" href="./assets/CSS/_ebank.css">
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <section id="internet-banking">
+        <div class="container">
+            <div class="banking">
+                <div class="banking-left">
+                    <div id="banking-left-content">
+                        <div class="ebank-sliders">
+                            <div id="1" class="ebank-content slide1">
+                                <div class="slide-img">
+                                    <img class="s-img" src="/assets/images/slide-img-1333.webp" alt="">
+                                </div>
+                                <div class="slide-info">
+                                    <h4>Bir ekranda hər şeyi idarə et!</h4>
+                                    <p>Filiala getmədən, UBank-la bank əməliyyatlarını bir ekranda et!</p>
+                                </div>
+                            </div>
+                            <div id="2" class="ebank-content slide2 d-none">
+                                <div class="slide-img">
+                                    <img class="s-img" src="/assets/images/slide-img-2.webp" alt="">
+                                </div>
+                                <div class="slide-info">
+                                    <h4>Bir toxunuşla istənilən yerə köçürmə et!</h4>
+                                    <p>UBank vasitəsilə Western Union, Zolotaya Korona, CONTACT pul köçürmə sistemləri
+                                        üzərindən bir toxunuşla dünyanın istənilən nöqtəsinə sürətli pul göndər!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ebank-dots">
+                            <div data-id="1" class="dot active-dot"></div>
+                            <div data-id="2" class="dot"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="banking-right">
+                    <div class="right-header">
+                        <h3>İnternet Bankçılığa giriş</h3>
+                        <a class="register" href="#">Qeydiyyat</a>
+                    </div>
+                    <div class="qr-code">
+                        <div class="qr-img">
+                            <img src="/assets/images/qrCode.png" alt="">
+                        </div>
+                        <div class="qr-inputs">
+                            <div data-id="33" class="inputs active-tab">
+                                <a href="#">
+                                    <div class="type-style">
+                                        <div class="inner-style">
+                                            <img class="mobile-img" src="/assets/images/login-mobile.png" alt="">
+                                            <span>FİN kod ilə</span>
+                                        </div>
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div data-id="34" class="inputs">
+                                <a href="#">
+                                    <div class="type-style">
+                                        <div class="inner-style">
+                                            <img class="asan-img" src="/assets/images/asan.png" alt="">
+                                            <span>Asan İmza</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="qr-note">
+                        <img class="qr-logo" src="/assets/images/login-info.png" alt="">
+                        <span class="note"> QR kod ilə giriş üçün UBank-dan istifadə et</span>
+                    </div>
+                    <div class="qr-tab-contents">
+                        <div id="33" class="tab-content">
+                            <div class="form ">
+                                <img class="form-acc" src="/assets/images/account.webp">
+                                <img class="info-icon" src="/assets/images/login-info.png">
+                                <input maxlength="15" type="text" name="text" autocomplete="off" required />
+                                <label for="text" class="label-name"> <span class="input-info">Şəxsiyyət vəsiqəsinin FİN
+                                        kodu</span>
+                                    <span class="content-name">
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="form ">
+                                <img class="form-acc" src="/assets/images/lock.png">
+                                <input maxlength="15" type="text" name="text" autocomplete="off" required />
+                                <label for="text" class="label-name"> <span class="input-info">Şifrə</span>
+                                    <span class="content-name">
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="btm">
+                                <div class="form ">
+                                    <img class="form-acc bottom-img" src="/assets/images/captcha.png">
+                                    <input class="inp" maxlength="15" type="text" name="text" autocomplete="off"
+                                        required />
+                                    <label for="text" class="label-name enter-code"> <span class="input-info">Kodu daxil
+                                            edin</span>
+                                        <span class="content-name">
+                                        </span>
+                                    </label>
+                                </div>
+                                <button type="button" class="btn btn-open frgt " style="width:55%;" data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdrop">
+                                    <a class="forget" href="#"> Şifrəni unutmusuz?</a>
+                                </button>
+                            </div>
+                            <div class="enter-btn">
+                                <a href="#">Daxil ol
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div id="34" class="tab-content d-none">
+                            <div class="form ">
+                                <img class="form-acc" src="/assets/images/lock.png">
+                                <input maxlength="15" type="text" name="text" autocomplete="off" required />
+                                <label for="text" class="label-name"> <span class="input-info">Şifrə</span>
+                                    <span class="content-name">
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="btm">
+                                <div class="form ">
+                                    <img class="form-acc bottom-img" src="/assets/images/captcha.png">
+                                    <input class="inp" maxlength="15" type="text" name="text" autocomplete="off"
+                                        required />
+                                    <label for="text" class="label-name enter-code"> <span class="input-info">Kodu daxil
+                                            edin</span>
+                                        <span class="content-name">
+                                        </span>
+                                    </label>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content all-modals">
+                <div class="modal-header titles">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Şifrənin bərpası</h1>
+                    <button type="button" class="btn-close x-icon" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body m-body">
+                    <div class="form ">
+                        <img class="form-acc" src="/assets/images/account.webp">
+                        <input id="input1" maxlength="15" type="text" name="text" autocomplete="off" required />
+                        <label for="text" class="label-name">
+                            <span class="content-name">
+                            </span>
+                        </label>
+                        <div class="hidden-info d-none"
+                            style="color:#e28116; font-size: 11px; position: absolute;top: 1px; left: 20px;">
+                            <span>Şəxsiyyət vəsiqəsinin FİN kodu</span>
+                        </div>
+                        <span class="modal-info">Şəxsiyyət vəsiqəsinin FİN kodu</span>
+                        <span id="error-msg-pin" style="font-size:12px; color:red;position: absolute;top: 57px;"></span>
+                    </div>
+                    <div class="form ">
+                        <img class="form-acc" src="/assets/images/login-mobile.png" alt="">
+                        <span class="mobile-num">Mobil nömrə</span>
+                        <input id="input2" maxlength="15" type="text" name="text" autocomplete="off" required />
+                        <label for="text" class="label-name">
+                            <span class="content-name">
+                            </span>
+                        </label>
+                        <span class="input-info mobile">Mobil nömrənin düzgün formatı: +994 XX XXX XX XX</span>
+                        <span id="error-msg-number"
+                            style="font-size:12px; color:red; position: absolute; top: 90px;"></span>
+                    </div>
+                    <div class="modal-footer confirm-button">
+                        <a href="#">Təsdiqlə</a>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"
+        integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- <script src="/assets/JS/app.js"></script> -->
+    <script src="./assets/JS/banking.js"></script>
+</body>
+
+</html>

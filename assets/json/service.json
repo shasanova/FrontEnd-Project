@@ -1,0 +1,260 @@
+{
+    "offices": [
+        {
+            "name": "Mərkəzi ofis",
+            "address": "Bakı ş., R.Behbudov küç. 55, AZ1014",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "Rəqəmsal filial",
+            "address": "S.S.Axundov küç., 42 ",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "Tovuz filialı",
+            "address": "Tovuz ş., Sabir küç., 21 ",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "Bərdə filialı",
+            "address": "Bərdə ş., H. Əliyev pr., 72",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "Xırdalan filialı",
+            "address": "Xırdalan ş., M.Hüseynzadə küç., 6",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "Quba filialı",
+            "address": "Quba ş., Heydər Əliyev pr., 225, AZ4002 ",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "Şəki filialı",
+            "address": "Şəki ş., M.Ə.Rəsulzadə pr., 160A, AZ5500 ",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "Lənkəran filialı",
+            "address": "Lənkəran ş., Z.Əliyeva küç., ev 12, AZ4200 ",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "Şəmkir filialı",
+            "address": "Şəmkir ş., 20 Yanvar küç., 1, AZ5700 ",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "Mingəçevir filialı",
+            "address": "Mingəçevir ş., Heydər Əliyev pr., 36, AZ4500 ",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        }, 
+        {
+            "name": "Yasamal filialı",
+            "address": "Bakı ş., Bəsti Bağırova küç., 2, AZ1065",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "Gəncə filialı",
+            "address": "Gəncə ş., Atatürk pr., 249, AZ2003",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "Kəpəz filialı",
+            "address": "Gəncə şəhəri, Kəpəz r-nu, Ş.Hüseynov küç., 2, AZ2011",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "İsmayıllı filialı",
+            "address": "İsmayıllı şəh., M.F. Axundov küç., 18A",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+       
+        {
+            "name": "Nərimanov filialı",
+            "address": "Bakı ş., Təbriz küç., 94, AZ1072",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "Sumqayıt filialı",
+            "address": "N.Nərimanov küç, ev.2/59, AZ5007",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "Əcəmi filialı",
+            "address": "Bakı ş., 5-ci mkr, A. Məhərrəmov 21B, AZ1102",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "10 saylı filial (Əhmədli) filialı",
+            "address": "Bakı ş., M.Hadi küç., 33, AZ1129",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "16 saylı filial (İçərişəhər)",
+            "address": "Bak ş., Yasamal r-nu, M.Müşviq küç., 15/17 AZ 1138",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "10 saylı filial (Əhmədli) filialı",
+            "address": "Bakı ş., M.Hadi küç., 33, AZ1129",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "17 saylı (Sahil) filial",
+            "address": "Bakı ş., Səbail r-nu, Bülbül pr., 10, AZ1022",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        }
+    ],
+
+    "saturdayOffices": [
+        {
+            "name": "Mərkəzi ofis",
+            "address": "Bakı ş., R.Behbudov küç. 55, AZ1014",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "17 saylı (Sahil) filial",
+            "address": "Bakı ş., Səbail r-nu, Bülbül pr., 10, AZ1022",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "16 saylı filial (İçərişəhər)",
+            "address": "Bak ş., Yasamal r-nu, M.Müşviq küç., 15/17 AZ 1138",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "10 saylı filial (Əhmədli) filialı",
+            "address": "Bakı ş., M.Hadi küç., 33, AZ1129",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        }, {
+            "name": "10 saylı filial (Əhmədli) filialı",
+            "address": "Bakı ş., M.Hadi küç., 33, AZ1129",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "13 saylı filial (İnşaatçılar)",
+            "address": "Bakı ş., Yasamal r-nu, Şərifzadə küç., 174, AZ 1138",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        }
+
+    ],
+    "businessOffices":[
+        {
+            "name": "10 saylı filial (Əhmədli) filialı",
+            "address": "Bakı ş., M.Hadi küç., 33, AZ1129",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "13 saylı filial (İnşaatçılar)",
+            "address": "Bakı ş., Yasamal r-nu, Şərifzadə küç., 174, AZ 1138",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "Nərimanov filialı",
+            "address": "Bakı ş., Təbriz küç., 94, AZ1072",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "Sumqayıt filialı",
+            "address": "N.Nərimanov küç, ev.2/59, AZ5007",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "Əcəmi filialı",
+            "address": "Bakı ş., 5-ci mkr, A. Məhərrəmov 21B, AZ1102",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "10 saylı filial (Əhmədli) filialı",
+            "address": "Bakı ş., M.Hadi küç., 33, AZ1129",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "13 saylı filial (İnşaatçılar)",
+            "address": "Bakı ş., Yasamal r-nu, Şərifzadə küç., 174, AZ 1138",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "16 saylı filial (İçərişəhər)",
+            "address": "Bak ş., Yasamal r-nu, M.Müşviq küç., 15/17 AZ 1138",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "10 saylı filial (Əhmədli) filialı",
+            "address": "Bakı ş., M.Hadi küç., 33, AZ1129",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "17 saylı (Sahil) filial",
+            "address": "Bakı ş., Səbail r-nu, Bülbül pr., 10, AZ1022",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        }
+        
+    ],
+    "utm":[
+        {
+            "name": "13 saylı filial (İnşaatçılar)",
+            "address": "Bakı ş., Yasamal r-nu, Şərifzadə küç., 174, AZ 1138",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "16 saylı filial (İçərişəhər)",
+            "address": "Bak ş., Yasamal r-nu, M.Müşviq küç., 15/17 AZ 1138",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "10 saylı filial (Əhmədli) filialı",
+            "address": "Bakı ş., M.Hadi küç., 33, AZ1129",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        },
+        {
+            "name": "17 saylı (Sahil) filial",
+            "address": "Bakı ş., Səbail r-nu, Bülbül pr., 10, AZ1022",
+            "openingTimes": "Bazar ertəsi - Cümə 9:00 – 18:00*<br>Şənbə/Bazar: fəaliyyət göstərmir.",
+            "service": "Fiziki və hüquqi şəxslər üçün bank xidmətləri.VİP-bankçılıq."
+        }
+    ]
+}
+

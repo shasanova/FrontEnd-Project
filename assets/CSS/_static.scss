@@ -1,0 +1,830 @@
+a {
+    color: #000;
+}
+
+header {
+    overflow-x: hidden;
+    // position: fixed;
+    // z-index: 999999;
+    // background-color: #fff;
+}
+
+.pr-bs-design {
+    color: #FF7A00 !important;
+    border-radius: 5px;
+    border: 1px solid #FF7A00;
+    font-weight: 600;
+}
+
+.mobile-header {
+    display: none;
+
+}
+
+.hidden-header-menu {
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    background: #fafafa;
+}
+
+.top-header {
+    height: 55px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+    .logo {
+        width: 27px;
+        height: 28px;
+        margin-right: 25px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .left-top {
+        a {
+            line-height: 12px;
+            font-weight: 400;
+            font-size: 12px;
+            color: #323232;
+            margin: 0 5px;
+        }
+    }
+
+    .right-top {
+        align-items: center;
+
+        .pr-bs {
+            .private {
+                line-height: 12px;
+                font-size: 12px;
+                padding: 10px 20px;
+                opacity: 1;
+            }
+
+            .business {
+                line-height: 12px;
+                font-size: 12px;
+                padding: 10px 20px;
+            }
+        }
+
+        .theme {
+            a {
+                i {
+                    font-size: 13px;
+                    color: #fff;
+                    padding: 10px 12px;
+                    border-radius: 5px;
+                    margin-left: 5px;
+                    background-color: #323232;
+                }
+            }
+
+            img {
+                border-radius: 5px;
+                background-color: #fff;
+                padding: 8px 9px;
+                margin-left: 5px;
+            }
+        }
+
+        .lang {
+            margin-left: 5px;
+
+            a {
+                line-height: 15px;
+                font-weight: 400;
+                font-size: 12px;
+                box-shadow: 0 2px 14px -10px rgba(0, 0, 0, .3);
+                text-transform: uppercase;
+                padding: 0 8px;
+                margin-right: 10px;
+            }
+        }
+
+        .search {
+            cursor: pointer;
+
+            i {
+                font-size: 12px;
+            }
+
+        }
+    }
+}
+
+.bottom-header {
+    .bottom-left {
+        a {
+            padding: 30px 15px;
+            font-size: 17px;
+            line-height: 18px;
+            font-family: CocoSharp, Arial;
+            font-weight: 700;
+            line-height: 18px;
+        }
+    }
+
+    .bottom-right {
+
+        .basket {
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            padding: 8px 5px 9px 22px;
+            border-radius: 20px;
+            margin-right: 10px;
+
+            i {
+                color: #ff6b00;
+                font-size: 21px;
+                margin-right: 10px;
+                position: relative;
+
+                span {
+                    font-size: 12px;
+                    color: #fff;
+                    position: absolute;
+                }
+            }
+        }
+
+        .phone {
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            font-weight: 700;
+            padding: 10px 14px;
+            border-radius: 19px;
+            margin-right: 10px;
+
+            .icon {
+                i {
+                    color: #ff6b00;
+                    font-size: 18px;
+                }
+            }
+
+            .number {
+                font-size: 12px;
+
+                color: #000;
+            }
+        }
+
+        .internet-banking {
+            border: 1px solid rgba(0, 0, 0, .1);
+            font-weight: 600;
+            padding: 10px 14px;
+            border-radius: 19px;
+
+            .banking-icon {
+                border-radius: 50%;
+                background-color: #ff6b00;
+                padding: 0 3px;
+
+                i {
+                    color: #fff;
+                    font-size: 15px;
+                }
+            }
+
+            .banking-name {
+                font-size: 13px;
+                color: #000;
+            }
+        }
+    }
+}
+
+// Search Input Starts
+.wrapper {
+    background: rgba(0, 0, 0, .47);
+    height: 100vh;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    z-index: 20;
+    transition: all .4s ease-in-out;
+
+    .search-inp {
+        padding-top: 20px;
+        padding-bottom: 50px;
+        background: #fff;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+        .close-icon {
+            cursor: pointer;
+            color: #323232;
+            font-size: 16px;
+            margin-bottom: 40px;
+        }
+
+        p {
+            font-size: 22px;
+            line-height: 28px;
+            margin-bottom: 15px;
+        }
+
+        .inp {
+            position: relative;
+
+            i {
+                position: absolute;
+                color: #FF7A00;
+                font-size: 13px;
+                position: absolute;
+                top: 33%;
+                right: 26%;
+                cursor: pointer;
+            }
+
+            input {
+                width: 50%;
+                background: 0 0;
+                font-family: CocoSharp, Arial;
+                font-weight: 800;
+                font-size: 14px;
+                line-height: 40px;
+                border-radius: 40px;
+                color: rgba(0, 0, 0, .3);
+                padding: 0 30px;
+                border: 1px solid rgba(50, 50, 50, .1);
+
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+
+        .addition-inputs {
+            width: 50%;
+            margin: auto;
+
+            .addition-inp {
+                float: left;
+                width: 33.33333333%;
+                padding-left: 18px;
+                padding-right: 18px;
+                position: relative;
+                min-height: 1px;
+
+                p {
+                    text-align: left;
+                    font-size: 16px;
+                    color: #000;
+                    margin-bottom: 35px;
+                    padding-bottom: 5px;
+                    border-bottom: 1px solid #FF6400;
+                }
+            }
+
+
+        }
+
+        .button {
+            margin-top: 60px;
+
+            a {
+                border: 1px solid rgba(0, 0, 0, .1);
+                color: #969696;
+                padding: 16px 25px;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 16px;
+                font-family: CocoSharp, Arial;
+                border-radius: 25px;
+
+            }
+
+        }
+    }
+
+}
+
+// Header Ends
+
+
+.dark-mode {
+    color: white;
+    background-color: black;
+
+    .active-header {
+        &:before {
+            background-color: #1a1a1a;
+        }
+    }
+    .tab-menu {
+        .service-contents{
+            .content{
+                .office{
+                    background: rgba(255,255,255,.1);
+                }
+                .hr-cards{
+                    .hr-card{
+                        background: rgba(255,255,255,.1);
+                        .hr-body{
+                            h4,
+                            p{
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+                .employees{
+                    .emp-box{
+                        background: rgba(255, 255, 255, 0.1);
+                        #emp-name,
+                        #emp-position,
+                        #emp-text{
+                            color: #fff;
+                        }
+                    }
+                }
+                .about-us{
+                    background: rgba(255, 255, 255, 0.1);
+                    p{
+                        color: #fff;
+                    }
+                }
+                .values{
+                    .value-hr-card{
+                        h5,
+                        p{
+                            color: #fff;
+                        }
+                    }
+                }
+                #vacancies{
+                    .vacancy{
+                        background: rgba(255,255,255,.1);
+                        .vc-titles{
+                            a{
+                                h5{
+                                    color: #fff;                                
+                                }
+                                span{
+                                    color: #fff;  
+                                }
+                            }
+                        }                  
+                    }
+                }
+            }
+        }
+        .service-headers {
+            .all-branches {
+                background-color: #1a1a1a;
+            }
+        }
+    }
+    .hidden-header-menu {
+        background-color: #000;
+        .menu-bar {
+            .menu-top {
+
+                .private,
+                .business {
+                    background: rgba(255, 255, 255, .1);
+                    color: #fff;
+                }
+            }
+            .menu-bar-bottom {
+                .bottom-links {
+                    a {
+                        border-bottom: none;
+                        color: #fff;
+                    }
+                }
+            }
+            .menu-bottom-tools {
+                .search {
+                    i {
+                        background: rgba(255, 255, 255, .1);
+                        color: #fff;
+                    }
+                }
+                .lang {
+                    a {
+                        background: rgba(255, 255, 255, .1);
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    .mobile-header {
+        .basket{
+            background: rgba(255, 255, 255, 0.1) !important;
+            i{
+                span{
+                    color: #fff;
+                }
+            }
+        }
+        .burger-icon {
+            i {
+                background: rgba(255, 255, 255, .1) !important;
+                color: #fff;
+            }       
+        }
+        .phone {
+            background: rgba(255, 255, 255, .1) !important;
+
+            .number {
+                color: #fff;
+            }
+        }
+    }
+    a {
+        color: #fff;
+    }
+    .top-header {
+        a {
+            color: #fff;
+        }
+        .right-top {
+            .lang {
+                a {
+                    background: rgba(255, 255, 255, .1);
+                    padding: 8px 6px;
+                    border-radius: 3px;
+                    margin-right: 5px !important;
+                }
+            }
+            .pr-bs {
+                a {
+                    background: rgba(255, 255, 255, .1);
+                }
+            }
+            .search {
+                background: rgba(255, 255, 255, .1);
+                padding: 3px 6px;
+                border-radius: 3px;
+            }
+        }
+    }
+    .bottom-header {
+        .bottom-right {
+            .basket{
+                border: 1px solid #969696;
+            }
+            .phone {
+                border: 1px solid #969696;
+
+                .number {
+                    color: #fff;
+                }
+            }
+            .internet-banking {
+                border: 1px solid #969696;
+                .banking-name {
+                    color: #fff;
+                }
+               .banking-icon {
+                    i {
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+    .wrapper {
+        .search-inp {
+            background: rgba(9, 8, 8, .9);
+            .close-icon {
+                color: #fff;
+            }
+            .addition-inputs {
+                .addition-inp {
+                    p {
+                        color: #fff;
+                        font-size: 11px;
+                    }
+                }
+            }
+            .button {
+                a {
+                    border: 1px solid #969696;
+                    color: #fff;
+                }
+            }
+            .inp {
+                input {
+                    background: #252323;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .all-cards{
+        .section-title{
+            h2{
+                color: #fff;
+            }
+        }
+        .visa{
+            background: rgba(255,255,255,.1);
+            .visa-body{
+                .visa-text{
+                    color: #fff;
+                }
+                .visa-header{
+                    p{
+                        color: #fff;
+                    }
+                }
+                .visa-bottom{
+                    .one-card{
+                        .c-name{
+                            span{
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }          
+        }
+    }
+    .card {
+        background-color: rgba(255, 255, 255, .1);
+
+        .card-contents {
+            p {
+                color: #fff;
+            }
+        }
+    }
+    .all-UCcard {
+        background-color: rgba(255, 255, 255, .1);
+        .right {
+            .uccard-title {
+                h3 {
+                    color: #fff;
+                }
+            }
+            .uccard-text {
+                p {
+                    color: #fff;
+                }
+            }
+            .uccard-buttons {
+                display: flex;
+                align-items: center;
+                .more {
+                    background: #FF6400;
+                    color: #fff !important;
+                    padding: 16px 25px;
+                    font-size: 13px;
+                    line-height: 16px;
+                    border-radius: 25px;
+                    border: 1px solid transparent;
+                    margin-right: 10px;
+                }
+                .uc-btn {
+                    border: 1px solid #969696;
+                }
+            }
+        }
+    }
+    .all-ubank {
+        background-color: rgba(255, 255, 255, .1);
+
+        .left-ubank {
+            .ubank-text {
+                p {
+                    color: #fff;
+                }
+            }
+
+            .get-it {
+                a {
+                    img {
+                        -webkit-filter: invert(100%);
+                    }
+                }
+            }
+
+            .about-btn {
+                margin-top: 30px;
+                padding: 15px 40px;
+                box-shadow: 0 10px 10px -10px rgba(255, 107, 0, .51);
+                background-color: #FF6400;
+                font-size: 14px;
+                color: #fff;
+                line-height: 20px;
+                border-radius: 25px;
+            }
+
+        }
+
+
+    }
+
+    .exchange-rate {
+        background-color: rgba(255, 255, 255, .1);
+        .exchange-body {
+            .exchange-header {
+                h4 {
+                    color: #fff;
+                }
+            }
+
+            .date {
+                p {
+                    color: #fff;
+                }
+            }
+
+            table {
+                td {
+                    color: #fff;
+                }
+            }
+        }
+
+        .exchange-calculator {
+            background-color: rgba(255, 255, 255, .1);
+
+            .calc-header {
+
+                h4,
+                p {
+                    color: #fff;
+                }
+
+            }
+
+            .usd {
+                background-color: #464646;
+
+                .select {
+                    span {
+                        color: #fff;
+                        background-color: #464646;
+                    }
+
+                }
+            }
+
+
+        }
+    }
+    .mobile-exchange-menu {
+        .tab-contents{
+            .tab-content{
+                .body{
+                    table{
+                        tbody{
+                            td{
+                                color: #fff !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .all-news {
+        .news-box {
+            background-color: rgba(255, 255, 255, .1);
+
+            .box-text {
+                p {
+                    color: #fff;
+                }
+            }
+
+            .news-date {
+                p {
+                    color: #fff;
+                }
+            }
+
+        }
+    }
+
+    .all-network {
+        .left {
+            .net-left {
+                background-color: rgba(255, 255, 255, .1);
+
+                .net-text {
+                    p {
+                        color: #fff;
+                    }
+                }
+            }
+
+        }
+
+        .right {
+            .net-right {
+                background-color: rgba(255, 255, 255, .1);
+
+                .right-text {
+                    p {
+                        color: #fff;
+                    }
+                }
+
+            }
+        }
+
+    }
+}
+
+// Footer Starts
+footer {
+    padding: 75px 0 60px;
+
+    .footer-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .menu-title {
+            line-height: 14px;
+            font-family: CocoSharp, Arial;
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+        .menu-content {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 12px;
+            line-height: 35px;
+        }
+    }
+
+    .footer-icons {
+        padding: 50px 0 20px;
+        border-bottom: 1px solid #D6D9DB;
+
+        .apple,
+        .android {
+            i {
+                background-color: #ff6b00;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            margin-right: 12px;
+            color: #fff;
+
+            i {
+                background-color: #a1a1a1;
+                ;
+                border-radius: 50%;
+                font-size: 12px;
+                padding: 10px;
+            }
+        }
+    }
+
+    .footer-bottom {
+        padding-top: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .footer-left {
+            font-size: 12px;
+
+            span {
+                font-weight: 200;
+                font-size: 12px;
+                margin-top: 10px;
+            }
+        }
+
+        .footer-partners {
+            a {
+                margin-left: 30px;
+            }
+
+            .partner {
+                .insurance {
+                    width: 60px;
+                    height: 45px;
+                }
+
+                .infobank,
+                .finance {
+                    height: 45px;
+                }
+            }
+        }
+    }
+}
+
+// Footer Ends

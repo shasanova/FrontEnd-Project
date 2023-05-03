@@ -1,0 +1,387 @@
+.input-info-style {
+    position: absolute;
+    top: -18px;
+    left: 26px;
+    font-size: 13px;
+    color: #e28116;
+}
+
+.banking {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1062px;
+    min-height: 450px;
+    height: 739px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    margin-top: 80px;
+    box-shadow: 0 40px 50px rgba(0, 0, 0, .3);
+
+    .banking-left {
+        width: 530px;
+        min-height: 734px;
+        height: auto !important;
+        border-radius: 5px;
+
+        #banking-left-content {
+            position: relative;
+            left: -100%;
+            animation: animateleft 1s linear 1;
+            animation-fill-mode: forwards;
+
+            .ebank-sliders {
+                margin: 0 auto;
+                width: 350px;
+                height: 30rem;
+                margin-top: 103px;
+
+                .ebank-content {
+                    .slide-img {
+                        width: 100%;
+
+                        img {
+                            width: 100%;
+                            border-radius: 10px;
+                            box-shadow: 10px 10px 33px 0 rgba(0, 0, 0, .15);
+                        }
+                    }
+
+                    .slide-info {
+                        padding-left: 10px;
+                        height: 200px;
+                        margin-top: 35px;
+
+                        h4 {
+                            color: #3e3e3e;
+                            font-size: 20px;
+                            margin-bottom: 22px;
+                        }
+
+                        p {
+                            color: #9b9b9b;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+
+            .ebank-dots {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 4px;
+
+                .dot {
+                    cursor: pointer;
+                    border-radius: 50%;
+                    width: 13px;
+                    height: 13px;
+                    background-color: rgba(175, 168, 168, .55);
+                }
+            }
+
+
+        }
+    }
+    .banking-right {
+        align-items: center;
+        width: 530px;
+        min-height: 728px;
+        height: auto !important;
+        padding: 68px 40px 0 40px;
+        border-radius: 5px;
+        background-color: #fff;
+        box-shadow: -8px 3px 12px 4px rgba(0, 0, 0, .08);
+    
+        .enter-btn {
+            background-color: #ff6400;
+            margin-top: 30px;
+            border-radius: 5px;
+    
+            a {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                color: #fff;
+                padding: 14px 34px;
+            }
+        }
+    
+        .right-header {
+            display: flex;
+            justify-content: space-between;
+    
+            h3 {
+                font-size: 19px;
+                color: #3e3e3e;
+            }
+    
+            a {
+                text-decoration: underline;
+                text-underline-position: under;
+            }
+        }
+    
+        .qr-code {
+            display: flex;
+            justify-content: space-between;
+    
+            .qr-img {
+                float: left;
+                margin-left: -17px;
+                width: 185px;
+                margin-top: 3px;
+    
+                img {
+                    width: 100%;
+                }
+            }
+    
+            .qr-inputs {
+                padding-top: 16px;
+    
+                .inputs {
+                    text-align: center;
+    
+                    a {
+                        .type-style {
+                            border: 1px solid #d2d2d2;
+                            width: 249px;
+                            padding: 20px 2px;
+                            border-radius: 5px;
+                            .inner-style {
+                                span {
+                                    font-size: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+    
+            }
+    
+    
+        }
+    
+        .qr-note {
+            padding: 7px;
+            font-size: 13px;
+            color: gray;
+            background: #f3f3f3;
+            margin-top: 20px;
+    
+            img {
+                padding-right: 12px;
+                opacity: .6;
+                cursor: pointer;
+            }
+    
+            span {
+                color: #9b9b9b;
+                font-size: 14px;
+            }
+        }
+    
+        .login-inputs {
+            width: 100%;
+            margin-top: 47px;
+    
+            .form {
+                position: relative;
+                margin-bottom: 33px;
+                text-align: left;
+    
+                .input-info {
+                    @extend .input-info-style;
+                }
+    
+                input {
+                    font-size: 18px;
+                    padding: 10px 10px 10px 37px;
+                    display: block;
+                    width: 100%;
+                    border: none;
+                    border-bottom: 1px solid #d6d6d6;
+                    color: #6f6f6f;
+                    outline: none;
+                }
+    
+                .info-icon {
+                    right: 0;
+                    opacity: .6;
+                    cursor: pointer;
+                }
+    
+                img {
+                    top: 14px;
+                    position: absolute;
+                }
+    
+                label {
+                    position: absolute;
+                    top: 0px;
+                    left: 4px;
+                }
+            }
+        }
+    
+        .bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    
+            .forget {
+                a {
+                    padding-right: 27px;
+                    color: #7977a1;
+                    font-size: 16px;
+                    text-decoration: underline;
+                }
+            }
+        }
+    
+        .bottom-login {
+            position: relative;
+    
+            input {
+                font-size: 18px;
+                padding: 10px 10px 10px 37px;
+                display: block;
+                width: 59%;
+                border: none;
+                border-bottom: 1px solid #d6d6d6;
+                color: #6f6f6f;
+                outline: none;
+            }
+    
+            label {
+                position: absolute;
+                top: -17px;
+                left: 67px;
+                font-size: 13px;
+                color: #e28116;
+            }
+    
+            img {
+                top: 20px;
+                position: absolute;
+                opacity: .6;
+            }
+        }
+    }
+}
+
+
+.animation-slider {
+    position: relative;
+    left: -100%;
+    animation: animateleft 1s linear 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animateleft {
+    from {
+        left: -100%;
+    }
+
+    to {
+        left: 0%;
+    }
+}
+
+.active-dot {
+    background-color: rgba(255, 100, 0, .8) !important;
+}
+
+
+
+.all-modals {
+    .confirm-button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #ff6400;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        color: #fff;
+        border-radius: 5px;
+        width: 100%;
+        margin: 60px 0 25px 0px;
+
+        a {
+            color: #fff;
+        }
+    }
+
+    .titles {
+        border-bottom: none;
+
+        h1 {
+            font-size: 14px;
+            color: rgba(128, 128, 128, .75);
+        }
+
+        .x-icon {
+            font-size: 14px;
+            float: left;
+            cursor: pointer;
+            padding-left: 25px;
+            padding-top: 14px;
+            color: rgba(128, 128, 128, .75);
+            font-weight: 700;
+            padding-bottom: 12px;
+        }
+    }
+
+    img {
+        position: absolute;
+        top: 29px;
+    }
+
+    input {
+        outline: none;
+        padding: 10px 10px 10px 37px;
+        display: block;
+        width: 84%;
+        border: none;
+        border-bottom: 1px solid #d6d6d6;
+        color: #6f6f6f;
+    }
+
+    label {
+        color: #999;
+        font-size: 16px;
+        font-weight: 400;
+        position: absolute;
+        pointer-events: none;
+        top: 15px;
+        left: 31px;
+    }
+
+    .mobile-num {
+        font-size: 13px;
+        color: #e28116;
+        position: absolute;
+        top: 7px;
+        left: 29px;
+        font-weight: 660000px;
+    }
+
+    .mobile {
+        font-size: 12px;
+        color: #999;
+        position: absolute;
+        top: 75px;
+        left: 1px;
+    }
+
+    .modal-info {
+        position: absolute;
+        top: 30px;
+        left: 40px;
+        font-size: 18px;
+        color: #999;
+}
+}
