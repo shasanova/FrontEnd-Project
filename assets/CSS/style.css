@@ -1640,14 +1640,14 @@ footer .footer-bottom .footer-partners .partner .finance {
 .tab-menu .service-contents .content .workAtUnibank .page-photo .image {
   position: relative;
   width: 35%;
-  height: 100%;
+  height: 30%;
   margin-right: 10px;
 }
 .tab-menu .service-contents .content .workAtUnibank .page-photo .image img {
   max-width: 100%;
   box-shadow: unset;
   position: absolute;
-  bottom: 0;
+  top: -139px;
   left: 0;
   height: 350px;
   width: auto;
@@ -2432,6 +2432,7 @@ footer .footer-bottom .footer-partners .partner .finance {
   .all-service .tab-menu .service-contents .content .workAtUnibank .page-photo .image {
     position: absolute;
     left: 11px;
+    bottom: 100px;
     background-position: left;
     background-size: contain;
     background-repeat: no-repeat;
