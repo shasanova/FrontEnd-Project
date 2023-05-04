@@ -1,4 +1,10 @@
 @media (max-width: 768px) {
+    .private_business_btns {
+        color: #FF7A00 !important;
+        border-radius: 5px;
+        border: 1px solid #FF7A00;
+        font-weight: 600;
+    }
     .active-header {
         padding: 8px 20px;
     }
@@ -512,7 +518,7 @@
                             .image {
                                 position: absolute;
                                 left: 11px;
-                                bottom: 100px;
+                                bottom: 30px;
                                 background-position: left;
                                 background-size: contain;
                                 background-repeat: no-repeat;
@@ -964,12 +970,7 @@
     transition: all .4s ease-in-out;
 }
 
-.private_business_btns {
-    color: #FF7A00 !important;
-    border-radius: 5px;
-    border: 1px solid #FF7A00;
-    font-weight: 600;
-}
+
 
 // hr icon
 @media (min-width: 576px) {
